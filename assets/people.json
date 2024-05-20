@@ -1,0 +1,12 @@
+[
+  {"id": 1, "name": "Ibrahim", "department": "IT King"},
+  {"id": 2, "name": "Najam", "department": "CS"},
+  {"id": 3, "name": "Ali", "department": "BS-CS"},
+  {"id": 4, "name": "Inayat", "department": "Video Editor"},
+  {"id": 5, "name": "Asif Ullah", "department": "BS_SE"},
+  {"id": 6, "name": "Hashim", "department": "EEngg"},
+  {"id": 7, "name": "Mustafa", "department": "GD"},
+  {"id": 8, "name": "Yassen", "department": "SE"},
+  {"id": 9, "name": "Munir", "department": "MBA"},
+  {"id": 10, "name": "Qasim", "department": "EE"}
+]
