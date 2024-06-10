@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:my_firstapplication/features/dashboard_screen/widgets/container_button.dart';
 import 'package:my_firstapplication/features/dashboard_screen/widgets/header_card.dart';
 import 'package:my_firstapplication/features/form_screen/form_class/form_class.dart';
+import 'package:my_firstapplication/features/pending_approval/pending_screen/pending_class.dart';
 
 class LargeScreen extends StatefulWidget {
   const LargeScreen({super.key});
@@ -40,7 +41,7 @@ class _LargeScreenState extends State<LargeScreen> {
                   title: 'Total Pending Approval',
                   icon: Icons.pending_actions_outlined,
                   onTap: () {
-                    Navigator.pop(context);
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>const PendingApprovalScreen()));
                   },
                 ),
               ),

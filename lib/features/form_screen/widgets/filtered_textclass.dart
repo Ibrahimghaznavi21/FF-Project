@@ -14,6 +14,7 @@ class SearchFilteredTextField extends StatefulWidget {
   final TextInputType keyboard;
   final IconData iconData;
 
+
   SearchFilteredTextField({
     required this.labelText,
     required this.field,
@@ -22,6 +23,7 @@ class SearchFilteredTextField extends StatefulWidget {
     required this.hinttext,
     required this.keyboard,
     required this.iconData,
+
   });
 
   @override
